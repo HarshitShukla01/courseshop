@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+ 
+ body::-webkit-scrollbar {
+    display: none;
+  }
+
+   body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }   
+
+li{
+  font-family: 'Rancho', cursive;
+  font-size: 25px;
+  font-weight: 800;
+  padding-top: 0px;
+}
+ul{
+  background-color: #6512dc52;
+  border-radius: 14px;
+  margin-top: 10px;
+  box-shadow: 4px 5px 10px #0000008c;
+}
+a:active {
+  color:brown
+}
+
+
