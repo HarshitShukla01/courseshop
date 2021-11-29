@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
  body::-webkit-scrollbar {
     display: none;
   }
@@ -16,7 +21,8 @@ li{
   padding-top: 0px;
 }
 ul{
-  background-color: #6512dc52;
+  background: rgb(138,131,177);
+  background: linear-gradient(177deg, rgba(138,131,177,1) 0%, rgba(225,129,157,1) 50%, rgba(255,219,105,1) 100%);
   border-radius: 14px;
   margin-top: 10px;
   box-shadow: 4px 5px 10px #0000008c;
@@ -24,5 +30,30 @@ ul{
 a:active {
   color:brown
 }
+ h1{
+  font-family: 'Bree Serif', serif;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 100px;
+ }
+ p{
+   font-size: 20px;
+   font-family: 'Roboto Slab', serif;
+
+ }
 
 
+/******************************/
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+section{
+  scroll-snap-align: start;
+}

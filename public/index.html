@@ -8,38 +8,63 @@
     <link rel="stylesheet" href="extrastyle.css" />
     <title>Document</title>
   </head>
-  <body >
-    <div id="home" >
-      <div>
-        <div class=" w-screen absolute z-20 flex  justify-end" style="min-height: 3rem">
-          <div>he</div>
-          <ul class="inline-flex py-0 px-3 mr-14">
-            <li class="px-4 mt-1" ><a href="#home" />Home</li>
-            <li class="px-4 mt-1" ><a href="#aboutus" />About Us</li>
-            <li class="px-4 mt-1" ><a href="#services" />Services</li>
-            <li class="px-4 mt-1" ><a href="#contactinfo" />Contact</li>
-          </ul>
+  <body class="m-0 p-0 box-border">
+    <div class="container">
+      <section id="home" class="one">
+        <div>
+          <div
+            class="w-screen absolute z-20 flex justify-end"
+            style="min-height: 3rem"
+          >
+            <div class="absolute left-2">
+              <a href="#home">
+                <img class="w-12 ml-2 mt-1" src="logo.png" alt="logo" />
+              </a>
+            </div>
+            <ul class="inline-flex py-0 px-3 mr-14 float-right">
+              <li class="px-4 mt-1"><a href="#home" />Home</li>
+              <li class="px-4 mt-1"><a href="#aboutus" />About Us</li>
+              <li class="px-4 mt-1"><a href="#services" />Services</li>
+              <li class="px-4 mt-1"><a href="#contactinfo" />Contact</li>
+            </ul>
+          </div>
         </div>
-
-        <!-- <ul class="bg-black">
-      <li><a href="#aboutus"/></li>
-      <li><a href="#services"/></li>
-      <li><a href="#contactinfo"/></li>
-      https://my.spline.design/lightingstudio1copy-d88840ea7725a40ed78bef50d0fb2166/
-     </ul>  -->
-      </div>
-      <div class="w-screen h-screen ">
-      <iframe
-        src="https://my.spline.design/lightingstudio1copy-d88840ea7725a40ed78bef50d0fb2166/"
-        frameborder="0"
-        class="w-screen h-full"
-      ></iframe>
-      </div>
+        <div class="w-screen h-screen">
+          <iframe
+            src="https://my.spline.design/lightingstudio1copy-d88840ea7725a40ed78bef50d0fb2166/"
+            frameborder="0"
+            class="w-screen h-full"
+          ></iframe>
+        </div>
+      </section>
+      <section
+        id="aboutus"
+        class="two w-screen h-screen pt-2 bg-yellow-500"
+      >
+      <div class="grid grid-flow-col gap-2">
+        <div class="col-span-4  ml-4">
+          <h1>About Us</h1>
+          <div class="mt-14 ml-10" style="width: 90%;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Vitae reiciendis eius adipisci ipsum odio labore fugiat explicabo, veritatis, magni asperiores soluta fugit quisquam, alias similique impedit aspernatur eligendi quas odit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis eius adipisci ipsum odio labore fugiat explicabo, veritatis, magni asperiores soluta fugit quisquam, alias similique impedit aspernatur eligendi quas odit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis eius adipisci ipsum odio labore fugiat explicabo, veritatis, magni asperiores soluta fugit quisquam, alias similique impedit aspernatur eligendi quas odit.</p>
+        </div>
+        </div>
+        <div class="mr-24">
+          <img class="mr-40 mt-44" src="logo.png" alt="logo">
+        </div>
     </div>
-    <div id="aboutus" class="  w-screen h-screen pt-2 bg-yellow-500"></div>
-    <div id="services" class="  w-screen h-screen pt-2 bg-red-800"></div>
-    <div id="contactinfo" class="  w-screen h-screen bg-black"></div>
-
-  <script></script>
+    </section>
+      <section id="services" class="three w-screen h-screen pt-2 bg-red-800">
+        <div>
+          <div><h1>Services</h1></div>
+        </div>
+      </section>
+      <section id="contactinfo" class="four w-screen h-screen pt-2 bg-black">
+        <h1>Contact Us</h1>
+      </section>
+    </div>
+    <script></script>
   </body>
 </html>
