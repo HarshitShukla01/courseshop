@@ -41,8 +41,21 @@ a:active {
    font-family: 'Roboto Slab', serif;
 
  }
-
-
+.card_class{
+  margin-top: 25px;
+  background-color: aquamarine;
+  width: 20%;
+  height: 50%;
+  border-radius: 20px;
+}
+.card_class_img{
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 50% ;
+}
+.contact_us_heading{
+  font-size: 80px;
+}
 /******************************/
 .container{
   scroll-snap-type: y mandatory;
