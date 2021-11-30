@@ -1,291 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="extrastyle.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demostyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
-  </head>
-  <body class="m-0 p-0 box-border">
-    <div class="container">
-      <section id="home" class="one">
-        <div>
-          <div
-            class="w-screen absolute z-20 flex justify-end"
-            style="min-height: 3rem"
-          >
-            <div class="absolute left-2">
-              <a href="#home" class="flex ">
-                <img class="w-12 ml-2 mt-1" src="logo.png" alt="logo" />
-                <p style="margin-left: 28px; font-size: 36px; font-weight: bold; text-shadow: 4px 4px 3px #dc829e;">MODEL 3D</p>
-              </a>
-            </div>
-            <ul class="inline-flex py-0 px-3 mr-14 float-right">
-              <li class="px-4 mt-1"><a href="#home" />Home</li>
-              <li class="px-4 mt-1"><a href="#aboutus" />About Us</li>
-              <li class="px-4 mt-1"><a href="#services" />Courses</li>
-              <li class="px-4 mt-1"><a href="#contactinfo" />Contact</li>
-            </ul>
-          </div>
+</head>
+<body style="margin:0; padding:0;">
+  <nav class="navbar navbar-expand-lg navbar-dark " style="position:absolute; z-index:20; width: 99vw; padding-top: 0px !important; padding-bottom: 0px !important;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home" style="padding-top: 0px !important; padding-bottom: 0px !important;"><img src="logo.png" style="width: 30px;"> MODEL-3D</a>
+      <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <div class="d-flex justify-content-end bg-dark div_of_ul">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#services">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#contactinfo">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="w-screen h-screen">
-          <iframe
-            src="https://my.spline.design/lightingstudio1copy-d88840ea7725a40ed78bef50d0fb2166/"
-            frameborder="0"
-            class="w-screen h-full"
-          ></iframe>
-        </div>
-      </section>
-      <section id="aboutus" class="two w-screen h-screen pt-2 bg-yellow-500">
-        <div class="grid grid-flow-col gap-2">
-          <div class="col-span-4 ml-4">
-            <h1>About Us</h1>
-            <div class="mt-14 ml-10" style="width: 90%">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>
-                Vitae reiciendis eius adipisci ipsum odio labore fugiat
-                explicabo, veritatis, magni asperiores soluta fugit quisquam,
-                alias similique impedit aspernatur eligendi quas odit.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                reiciendis eius adipisci ipsum odio labore fugiat explicabo,
-                veritatis, magni asperiores soluta fugit quisquam, alias
-                similique impedit aspernatur eligendi quas odit.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                reiciendis eius adipisci ipsum odio labore fugiat explicabo,
-                veritatis, magni asperiores soluta fugit quisquam, alias
-                similique impedit aspernatur eligendi quas odit.
-              </p>
-            </div>
-          </div>
-          <div class="mr-24">
-            <img class="mr-40 mt-44" src="logo.png" alt="logo" />
-          </div>
-        </div>
-      </section>
-      <section id="services" class="three w-screen h-screen pt-2 " style="background-color: #d881a2;">
-        <div>
-          <div><h1 class="text-center contact_us_heading">COURSES</h1></div>
-        </div>
-        <div class="flex justify-evenly">
-          <div class="card_class">
-            <img class="card_class_img" src="photo1.jpg" alt="Mountain" />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">3D MODEL</div>
-              <p class=" text-base">
-                Lorem ipsum dolor. Alias beatae eligendi nisi tempore accusamus,
-                mollitia quod impedit. Debitis qui, deserunt id non, ullam
-                possimus quas beatae, facere delectus quibusdam officiis!
-              </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#javascript</span
-              >
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#css</span
-              >
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#html</span
-              >
-            </div>
-          </div>
-          <div class="card_class">
-            <img class="card_class_img" src="photo1.jpg" alt="Mountain" />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">3D MODEL</div>
-              <p class="text-base">
-                Lorem ipsum dolor. Alias beatae eligendi nisi tempore accusamus,
-                mollitia quod impedit. Debitis qui, deserunt id non, ullam
-                possimus quas beatae, facere delectus quibusdam officiis!
-              </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#javascript</span
-              >
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#css</span
-              >
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#html</span
-              >
-            </div>
-          </div>
-          <div class="card_class">
-            <img class="card_class_img" src="photo1.jpg" alt="Mountain" />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">3D MODEL</div>
-              <p class=" text-base">
-                Lorem ipsum dolor. Alias beatae eligendi nisi tempore accusamus,
-                mollitia quod impedit. Debitis qui, deserunt id non, ullam
-                possimus quas beatae, facere delectus quibusdam officiis!
-              </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#javascript</span
-              >
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#css</span
-              >
-              <span
-                class="
-                  inline-block
-                  bg-gray-200
-                  rounded-full
-                  px-3
-                  py-1
-                  text-sm
-                  font-semibold
-                  text-gray-700
-                  mr-2
-                  mb-2
-                "
-                >#html</span
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contactinfo" class="four w-screen h-screen pt-2 " style="background-color: #8b67aa;"> 
-        <h1 class="contact_us_heading text-center">Contact Us</h1>
-        <div class="" style="background-color: #7f91ff;
-        padding: 25px 40px;
-        box-shadow: 8px 8px 9px 0px #000000ba;
-        border-radius: 20px;
-        width: 50vw;
-        margin: auto;
-        margin-top: 17px;
-        ">
-          <form >
-            <div >
-              <label for="name_id" class="block text-sm font-medium ">Full Name</label>
-              <input type="text" name="name_id" id="name_id" autocomplete="email" class="mt-1 py-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-            </div>
-            <div class="mt-4">
-              <label for="email_address" class="block text-sm font-medium ">Email address</label>
-              <input type="text" name="email_address" id="email_address" autocomplete="email" class="mt-1 py-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-            </div>
-            <div class="mt-4" >
-              <label for="message" class="block text-sm font-medium ">Message</label>
-              <input type="text" name="message" id="message" autocomplete="email" class="mt-1 py-8 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-            </div>
-            <div class="mt-4 ">
-              <button type="submit" class="inline-flex  justify-center py-1 px-4 border border-transparent shadow-sm text-lg font-medium rounded-md text-white bg-green-500 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                Save
-              </button>
-            </div>
-          </form>
-        </div>
-        <footer class="bg-black relative" style="clear: both;
-        height: 35px;
-        margin-top: 8rem;">
-         <h2 class="text-center" style="color:aqua; font-size: 20px;">#MadeInIndia</h2>
-        </footer>
-      </section>
+      </div>
     </div>
-    <script></script>
-  </body>
+  </nav>
+    <div class="container-fluid container_main">
+        <section id="home" class="one" style="background-color: yellow;">
+            <div class="" style="background-color: aqua;">
+              <!-- src="https://my.spline.design/portalcopy-dfd0adfb0438ccd73325bc254ad06ecf/" -->
+              <!-- src="https://my.spline.design/cylindersanimationcopy-7575e3c7356c59289ad85515b471f9a3/" -->
+                <iframe
+                  src="https://my.spline.design/portalcopy-dfd0adfb0438ccd73325bc254ad06ecf/"
+                  frameborder="0"
+                  class="iframe_class"
+                 
+                ></iframe>
+            </div>
+        </section>
+        <section id="aboutus" class="two">
+            <div class="container-fluid">
+             <div class="row">
+                <div class="col-md-8">
+                  <h1 class="about_us_h1">About Us</h1>
+                  <div class="para_div_about_us" style="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p>
+                      Vitae reiciendis eius adipisci ipsum odio labore fugiat
+                      explicabo, veritatis, magni asperiores soluta fugit quisquam,
+                      alias similique impedit aspernatur eligendi quas odit.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                      reiciendis eius adipisci ipsum odio labore fugiat explicabo,
+                      veritatis, magni asperiores soluta fugit quisquam, alias
+                      similique impedit aspernatur eligendi quas odit.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                      reiciendis eius adipisci ipsum odio labore fugiat explicabo,
+                      veritatis, magni asperiores soluta fugit quisquam, alias
+                      similique impedit aspernatur eligendi quas odit.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-around" >
+                  <img class="img_about_us" src="logo.png" alt="logo" />
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="services" class="three " style="background-color: #d881a2;">
+         <div class="d-flex" style="flex-direction: column; align-items: center;">
+            <h1 class="about_us_h1">Courses</h1>
+            <div class="container-fluid container_cards_courses">
+            <div class="row row-cols-1 row-cols-md-3 g-5" >
+                <div class="col">
+                  <div class="card h-100 card_main_div">
+                    <img src="photo1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet cumque pariatur molestiae. Maiores commodi fugit cumque nobis laborum, amet laboriosam iure officia placeat vero odio earum rerum, expedita nulla.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 card_main_div">
+                    <img src="photo1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet cumque pariatur molestiae. Maiores commodi fugit cumque nobis laborum, amet laboriosam iure officia placeat vero odio earum rerum, expedita nulla.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 card_main_div">
+                    <img src="photo1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet cumque pariatur molestiae. Maiores commodi fugit cumque nobis laborum, amet laboriosam iure officia placeat vero odio earum rerum, expedita nulla.</p>
+                    </div>
+                  </div>
+                </div>
+               </div> 
+         </div>
+        </section>
+        <section id="contactinfo" class="four " style="background-color: #8b67aa;">
+         <div class="d-flex" style="flex-direction: column; align-items: center;">
+             <h1 class="about_us_h1">Contact Us</h1>
+             <form class="form_class" >
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Full Name</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Message</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Subscribe for latest update</label>
+                </div>
+                <button type="submit" class="btn btn-success" style="float:right">Submit</button>
+             </form>
+         </div>
+         <div>
+          <footer class="bg-dark footer_class" >
+           <h2 style="color:aqua; font-size: 20px; text-align: center;">#MadeInIndia</h2>
+          </footer>
+        </div>
+      </section>
+        </section>
+    </div>
+</body>
 </html>

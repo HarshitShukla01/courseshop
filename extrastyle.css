@@ -57,7 +57,7 @@ a:active {
   font-size: 80px;
 }
 /******************************/
-.container{
+.container_main{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
